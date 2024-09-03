@@ -70,7 +70,6 @@
       },
       async searchPokemon() {
         if (this.searchQuery.trim() === '') {
-          this.filteredPokemons = this.pokemons;
           this.searchResult = null;
           return;
         }
